@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCardapio1.Views.CarrinhoPage">
+    <StackLayout>
+        <ListView x:Name="cart" RowHeight="60">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout VerticalOptions="FillAndExpand"
+                                   Orientation="Horizontal"
+                                   Padding="20,10,0,10" Spacing="20">
+                            <StackLayout Orientation="Vertical" VerticalOptions="Fill">
+
+                                <Label
+                                                Text="{Binding Name}"
+                                                FontSize="Small"/>
+
+                                <Label
+                                                        Text="{Binding Price}"
+                                                        FontSize="Small"
+                                                        VerticalOptions="End" HorizontalOptions="End"/>
+
+                                <Label
+                                                        Text="{Binding Qty}"
+                                                        FontSize="Small"
+                                                        WidthRequest="60"
+                                                        HorizontalTextAlignment="End"
+                                                        VerticalOptions="End"
+                                                        HorizontalOptions="End"/>
+
+                                <Label
+                                                        Text="{Binding Total}"
+                                                        VerticalOptions="End"
+                                                        HorizontalOptions="End"
+                                                        FontSize="20"
+                                                        WidthRequest="60"
+                                                        HorizontalTextAlignment="End"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout Orientation="Horizontal" BackgroundColor="White" Padding="10" HorizontalOptions="End" VerticalOptions="Center">
+            <Label  Text="Total" FontSize="Small" TextColor="Maroon"/>
+            <Label x:Name="total" FontSize="Small" TextColor="Black"/>
+        </StackLayout>
+        <Button Text="Finalizar Pedido" Clicked="Finish_btn_Clicked"/>
+    </StackLayout>
+</ContentPage>

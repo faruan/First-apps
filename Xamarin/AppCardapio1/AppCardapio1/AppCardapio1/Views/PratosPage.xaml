@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCardapio1.Views.PratosPage"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             Title="Pratos">
+    <ListView x:Name="lvPrato"
+              HasUnevenRows="True"
+              ItemSelected="lvPrato_ItemSelected">
+        <d:ListView.ItemsSource>
+            <x:Array Type="{x:Type x:String}">
+                <x:String>item1</x:String>
+                <x:String>item2</x:String>
+                <x:String>item3</x:String>
+                <x:String>item4</x:String>
+                <x:String>item5</x:String>
+                <x:String>item6</x:String>
+            </x:Array>
+        </d:ListView.ItemsSource>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <controls:CircleImage
+                                
+                                       HeightRequest="65"
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand"
+                                       Aspect="AspectFill"
+                                       WidthRequest="71"
+                                       Grid.RowSpan="2"
+                                       Source="{Binding Image}"/>
+                        <Label Grid.Column="1"
+                                       Text="{Binding Name}"
+                                       FontAttributes="Bold" 
+                                       FontSize="22"
+                                       VerticalOptions="End"/>
+                        <Label Grid.Column="1"
+                                       Grid.Row="1"
+                                       VerticalOptions="Start"
+                                       FontSize="16"
+                                       Text="{Binding Description}"/>
+                        <Label Grid.Column="1"
+                                       Grid.Row="2"
+                                       FontSize="16"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Start"
+                                       Text="{Binding Price}"/>
+                        <Label Grid.Column="1"
+                                       Grid.Row="2"
+                                       FontSize="16"
+                                       VerticalOptions="Start"
+                                       Text="R$"/>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
