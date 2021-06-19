@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SJx9SOW0lFxwGRNvU5Oj87kHB3x0ZlfJ43ZDcBdtwxX6SFXQN+MLR6I2aelILDwLyHFWrih+m4d0D51t/El0gQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Filipe\\source\\repos\\Tabuadapronta\\Tabuadapronta\\Tabuadapronta.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Filipe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

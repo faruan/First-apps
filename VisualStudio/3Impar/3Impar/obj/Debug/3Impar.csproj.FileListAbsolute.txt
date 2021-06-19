@@ -1,0 +1,7 @@
+C:\Users\Filipe\source\repos\3Impar\3Impar\bin\Debug\3Impar.exe.config
+C:\Users\Filipe\source\repos\3Impar\3Impar\bin\Debug\3Impar.exe
+C:\Users\Filipe\source\repos\3Impar\3Impar\bin\Debug\3Impar.pdb
+C:\Users\Filipe\source\repos\3Impar\3Impar\obj\Debug\3Impar.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\source\repos\3Impar\3Impar\obj\Debug\3Impar.exe
+C:\Users\Filipe\source\repos\3Impar\3Impar\obj\Debug\3Impar.pdb
+C:\Users\Filipe\source\repos\3Impar\3Impar\obj\Debug\3Impar.csprojAssemblyReference.cache

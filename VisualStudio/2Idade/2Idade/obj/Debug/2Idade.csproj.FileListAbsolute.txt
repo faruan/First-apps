@@ -1,0 +1,7 @@
+C:\Users\Filipe\source\repos\2Idade\2Idade\bin\Debug\2Idade.exe.config
+C:\Users\Filipe\source\repos\2Idade\2Idade\bin\Debug\2Idade.exe
+C:\Users\Filipe\source\repos\2Idade\2Idade\bin\Debug\2Idade.pdb
+C:\Users\Filipe\source\repos\2Idade\2Idade\obj\Debug\2Idade.csprojAssemblyReference.cache
+C:\Users\Filipe\source\repos\2Idade\2Idade\obj\Debug\2Idade.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\source\repos\2Idade\2Idade\obj\Debug\2Idade.exe
+C:\Users\Filipe\source\repos\2Idade\2Idade\obj\Debug\2Idade.pdb

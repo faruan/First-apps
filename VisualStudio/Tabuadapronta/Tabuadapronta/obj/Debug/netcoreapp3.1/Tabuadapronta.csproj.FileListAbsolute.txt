@@ -1,0 +1,13 @@
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\bin\Debug\netcoreapp3.1\Tabuadapronta.exe
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\bin\Debug\netcoreapp3.1\Tabuadapronta.deps.json
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\bin\Debug\netcoreapp3.1\Tabuadapronta.runtimeconfig.json
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\bin\Debug\netcoreapp3.1\Tabuadapronta.runtimeconfig.dev.json
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\bin\Debug\netcoreapp3.1\Tabuadapronta.dll
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\bin\Debug\netcoreapp3.1\Tabuadapronta.pdb
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\obj\Debug\netcoreapp3.1\Tabuadapronta.csprojAssemblyReference.cache
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\obj\Debug\netcoreapp3.1\Tabuadapronta.AssemblyInfoInputs.cache
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\obj\Debug\netcoreapp3.1\Tabuadapronta.AssemblyInfo.cs
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\obj\Debug\netcoreapp3.1\Tabuadapronta.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\obj\Debug\netcoreapp3.1\Tabuadapronta.dll
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\obj\Debug\netcoreapp3.1\Tabuadapronta.pdb
+C:\Users\Filipe\source\repos\Tabuadapronta\Tabuadapronta\obj\Debug\netcoreapp3.1\Tabuadapronta.genruntimeconfig.cache
